@@ -5,7 +5,7 @@ import scipy.stats as ss
 import pickle
 
 
-with open('pickled/500-600geom(0.5)1e6immigration.pickle', 'rb') as f:
+with open('Pickled/500-600geom(0.5)1e6immigration.pickle', 'rb') as f:
     results = pickle.load(f)
 
 
