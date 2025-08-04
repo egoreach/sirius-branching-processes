@@ -3,7 +3,7 @@ import numpy as np
 import scipy.stats as ss
 import pickle
 
-with open('pickled/500-600geom(0.5)3e5,WO immigration.pickle', 'rb') as f:
+with open('Pickled/500-600geom(0.5)3e5,WO immigration.pickle', 'rb') as f:
     results = pickle.load(f)
 
 bounds = {'scale': (0.1, 100)}
